@@ -1,0 +1,11 @@
+h1 {
+    text-align: left;
+}
+.user-info{
+    text-align: left;
+    margin-top: 50px;
+}
+.user-info > form > button {
+    margin-left: 0;
+    margin-top: 10px;
+}

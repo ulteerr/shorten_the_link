@@ -1,0 +1,11 @@
+{
+    "name": "simple/app",
+    "description": "This is a simple app with a few libraries",
+    "type": "project",
+    "license": "none",
+    "minimum-stability": "alpha",
+    "require": {
+        "phpmailer/phpmailer": "^6.0",
+        "erusev/parsedown": "^1.8@beta"
+    }
+}

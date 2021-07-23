@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap&subset=cyrillic-ext');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-weight: 400;
+    background: #fff;
+}
+
+img {max-width: 100%}
+
+a {
+    color: #ff5644;
+    text-decoration: none;
+    transition: all 600ms ease;
+}
+
+a:hover {
+    color: #8bddff;
+    transition: all 600ms ease;
+}
+
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+}
+header > .menu {
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+    background: #ffffff;
+    color: #000;
+    text-transform: uppercase;
+}
+header > .menu .nav {
+    display: flex;
+    justify-content: space-between;
+}
+header > .menu > .nav a {
+    color: #757575;
+    margin-right: 10px;
+}
+header > .menu > .nav a:hover {
+    color: #b5b5b5;
+}
+header > .menu > .nav .logo img {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+}
+header > .menu > .nav span {
+    float: left;
+    font-weight: 500;
+}
+
+.main {text-align: center}
+.main > h1 {font-size: 50px;}
+.btn {
+    width: 130px;
+    height: 40px;
+    background: #ff5644;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+#send {
+    margin-left: 0;
+    margin-right: 150px;
+    width: 200px;
+}
+.main .form-control {
+    margin: 0 auto;
+    width: 350px;
+
+}
+
+.main .form-control input,
+.main .form-control textarea {
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.main .form-control textarea {
+    height: 200px;
+    resize: none;
+}
+
+.main .form-control.btn {
+    margin-top: 15px;
+    margin-left: 0;
+    background: #ff5644;
+}
+
+.main .form-control .error {
+    color: #ff5644;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer > .social > i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: silver;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #333;
+    transition: all 600ms ease;
+}
+
+footer > .social > i:hover {
+    transition: all 600ms ease;
+    transform: translateY(-5px);
+}

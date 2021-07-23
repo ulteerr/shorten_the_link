@@ -1,0 +1,21 @@
+.linkblock {
+    margin-left: 150px;
+    background: #aeadad;
+    width: 70%;
+    border-radius: 10px;
+    text-align: left;
+}
+.linkblock > b {
+    margin-top: 10px;
+    margin-left: 11px;
+}
+
+.linkblock> a {
+    color: #454444;
+}
+.linkblock > button {
+    margin-bottom: 10px;
+}
+.linkblock > button > i {
+    margin-left: 5px;
+}
